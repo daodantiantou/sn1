@@ -1,0 +1,3196 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-16 18:38:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-01 23:51:35
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #F2F2F2;
+}
+.dingtong{
+	width: 100%;
+	height: 100px;
+	background-color: #848FC9;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.dingtong a{
+	width: auto;
+	height: 100px;
+	display: block;
+}
+.dingtong a img{
+	margin: 0 auto;
+}
+.dingtong .btn{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	right: 56px;
+	background-image: url('../img/suning.png');
+	background-position: 200px 185px;
+}
+.dingtong .btn:hover{
+	background-position: 185px 185px;
+}
+.toolbar{
+	width: 100%;
+	height: 35px;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #EEEEEE;
+}
+.toolbar .left{
+	width: auto;
+	height: 35px;
+	margin-left: 80px;
+	float: left;
+}
+.toolbar .left .nav{
+	position: relative;
+	width: 83px;
+	height: 35px;
+	float: left;
+	padding: 0 10px;
+	line-height: 35px;
+	color: #666;
+	font-size: 10px;
+	font-weight: 400;
+}
+.toolbar .left .nav .wzdw{
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 988px;
+    padding: 20px 0;
+    border: 1px solid #ddd;
+    background: red;
+    line-height: 35px;
+    color: #333; 
+}
+.toolbar .left .nav span{
+	font-size: 1px;
+    width: 10px;
+    color: #bbb;
+    margin-left: 3px;
+}
+.toolbar .left .nav:hover{
+	background-color: #fff;
+}
+.toolbar .left .nav:nth-child(2):hover{
+	color: #ff6700;
+	cursor: pointer;
+}
+.toolbar .left .nav1{
+	width: 77px;
+	height: 35px;
+	float: left;
+}
+.toolbar .left .nav1 a{
+	display: block;
+	width: 77px;
+	height: 35px;
+}
+.toolbar .right{
+	width: auto;
+	height: 35px;
+	background-color: #F5F5F5;
+	margin-right: 80px;
+	float: right;
+}
+.toolbar .right .nva{
+	width: auto;
+	height: 35px;
+	margin: 0 10px;
+	float: left;
+	line-height: 35px;
+    color: #666;
+    font-size: 10px;
+	font-weight: 400;
+}
+.toolbar .right .nva:hover{
+	cursor: pointer;
+	color: #ff6700;
+}
+.toolbar .right .nva:nth-child(3):hover,.toolbar .right .nva:nth-child(4):hover,.toolbar .right .nva:nth-child(9):hover{
+	background-color: #fff;
+}
+.toolbar .right .nva span{
+	font-size: 1px;
+    width: 10px;
+    color: #bbb;
+    margin-left: 3px;
+}
+.toolbar .right .nva1 a{
+	display: block;
+	width: auto;
+	height: auto;
+	color: #ff6700;
+}
+.toolbar .right .nva1 a:hover{
+	background-color: #fff;
+}
+.toolbar .right .nva1 a span{
+	margin-right: 6px;
+	color: #ff6700;
+}
+.sousuo{
+	width: 100%;
+	height: 110px;
+	background-color: #fff;
+}
+.sousuo .con{
+	width: 1190px;
+	height: 110px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.sousuo .con .a1{
+	width: 190px;
+	height: 94px;
+	float: left;
+}
+.sousuo .con .a2{
+	width: 160px;
+	height: 104px;
+	float: left;
+}
+.sousuo .con .serch{
+	width: auto;
+	height: 40px;
+	float: left;
+	background-color: #fff;
+	margin-top: 35px;
+}
+.sousuo .con .serch .szuo{
+	width: 390px;
+	height: 36px;
+	float: left;
+	padding: 0 0 0 28px;
+    border: 2px solid #FA0
+}
+#searchKeywords{
+	width: 380px;
+	padding: 9px 10px 9px 0;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 0;
+    border: none;
+    background: #FFF;
+    color: #BBB;
+    font-size: 12px;
+    outline: none;
+}
+#searchSubmit{
+	display: block;
+	float: left;
+	font-size: 18px;
+	width: 120px;
+    background: #F90;
+    height: 40px;
+    font-family: 'MicroSoft YaHei';
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-indent: 2px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.sousuo .con .erweima{
+	width: 88px;
+	height: 88px;
+	float: right;
+	background-color: #fff;
+	margin-top: 11px;
+	border: 1px solid #EEE;
+}
+.sousuo .con .erweima img{
+	margin: 4px;
+}
+
+
+.barbox{
+	width: 100%;
+	height: 38px;
+	background-color: #fff;
+}
+.barbox .bar{
+	width: 1190px;
+	height: 38px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.barbox .bar .left{
+	width: 190px;
+	height: 38px;
+	background-color: #FF9900;
+	float: left;
+	line-height: 38px;
+	color: #FFF!important;
+    font-size: 13px;
+    font-weight: bold;
+}
+.barbox .bar .left i{
+	margin-left: 8px;
+}
+.barbox .bar .center{
+	width: auto;
+	height: 38px;
+	padding-left: 10px;
+	float: left;
+}
+.barbox .bar .center li{
+	width: 60px;
+	height: 38px;
+	float: left;
+	padding: 0 12px 0 13px;
+	font-size: 15px;
+	color: #333;
+	font-weight: bold;
+	line-height: 38px;
+}
+.barbox .bar .center li:hover{
+	cursor: pointer;
+	color: #ff6700;
+}
+.barbox .bar .center li:nth-child(1),.barbox .bar .center li:nth-child(2),.barbox .bar .center li:nth-child(4),.barbox .bar .center li:nth-child(7){
+	width: 45px;
+	height: 38px;
+}
+.barbox .bar .right{
+	width: 170px;
+	height: 38px;
+	background-color: tan;
+	float: right;
+}
+.barbox .bar .right a{
+	display: block;
+	width: 170px;
+	height: 38px;
+}
+
+
+
+.banner{
+	width: 100%;
+	height: 440px;
+	background-color: #D9D7D8;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.banner:hover .left,.banner:hover .right{
+	opacity: 1;
+}
+.banner .left{
+	width: 30px;
+	height: 64px;
+	position: absolute;
+	left: 271px;
+	top: 180px;
+	background-image: url('../img/suning.png');
+	background-position: -82px -145px;
+	opacity: .0;
+	z-index: 20;
+}
+.banner .left:hover{
+	background-position: -161px -145px;
+}
+.banner .right{
+	width: 30px;
+	height: 64px;
+	position: absolute;
+	right: 249px;
+	top: 180px;
+	background-image: url('../img/suning.png');
+	background-position: -121px -145px;
+	opacity: .0;
+	z-index: 20;
+}
+.banner .right:hover{
+	background-position: -198px -145px;
+}
+.banner .btns{
+	width: 240px;
+	height: 20px;
+	position: absolute;
+	left: 560px;
+	bottom: 20px;
+	z-index: 1999;
+}
+.banner .btns .btn{
+	width: 20px;
+	height: 20px;
+	margin-left: 8px;
+	float: left;
+	background-image: url('../img/suning.png');
+	background-position: -26px -100px;
+}
+.banner .btns .btn1{
+	cursor: pointer;
+	background-image: url('../img/suning.png');
+	background-position: -1px -100px;
+}
+.banner .imgbox{
+	width: 830px;
+	height: 440px;
+	position: absolute;
+	left: 270px;
+	top: 0;
+}
+.banner .imgbox img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+.banner .listbox{
+	width: 190px;
+	height: 440px;
+	background-color: #252221;
+	position: absolute;
+	left: 80px;
+	top: 0;
+}
+.banner .listbox .dingwei{
+	position: absolute;
+	top: 0;
+	left: 190px;
+	display: none;
+	z-index: 999;
+	background: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.banner .listbox .dingwei .dwleft{
+	width: 800px;
+	height: 421px;
+	float: left;
+}
+.banner .listbox .dingwei .dwleft .top{
+	width: 686px;
+	height: 24px;
+	padding: 10px 0 0 8px;
+	
+}
+.banner .listbox .dingwei .dwleft .top .dingweia{
+	float: left;
+    height: 24px;
+    margin-left: 25px;
+    padding: 0 10px;
+    color: #FFF;
+    line-height: 24px;
+    text-align: center;
+    background: #F90;
+    text-decoration: none;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.banner .listbox .dingwei .dwleft .bottom{
+	width: 780px;
+	height: 461px;
+	padding: 10px 0 0 20px;
+	
+}
+.banner .listbox .dingwei .dwleft .bottom dl{
+	width: 750px;
+	height: 55px;
+	float: left;
+    height: auto;
+    margin-bottom: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+.banner .listbox .dingwei .dwleft .bottom dt{
+	float: left;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+.banner .listbox .dingwei .dwleft .bottom .dtdt{
+	color: #000;
+	display: block;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+}
+.banner .listbox .dingwei .dwleft .bottom dd{
+	width: 650px;
+	float: right;
+	font: 12px/1.5 arial,tahoma,\5b8b\4f53;
+	line-height: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    margin-top: 4px;
+    padding-bottom: 8px;
+}
+.banner .listbox .dingwei .dwleft .bottom dd .dddd {
+	color: #666;
+    margin-right: 15px;
+     display: inline-block;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.banner .listbox .dingwei .dwleft .bottom dd .dddd:hover{
+	color: #ff6700;
+}
+.banner .listbox .dingwei .dwleft .bottom dd .o{
+	color: #f60;
+	margin-right: 15px;
+    display: inline-block;
+    font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.banner .listbox .dingwei .dwright{
+	width: 199px;
+	height: 4438px;
+	background: #ccc;
+	float: right;
+}
+.banner .listbox .dingwei .dwright .shang{
+	width: 182px;
+    margin: 10px 0 0 8px;
+}
+.banner .listbox .dingwei .dwright .shang .shouji{
+	display: block;
+	float: left;
+    width: 90px;
+    height: 38px;
+    margin: 0 1px 1px 0;
+    padding-top: 7px;
+    background: #FFF;
+    color: #333;
+}
+.banner .listbox .list{
+	width: 190px;
+	height: 438px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.banner .listbox .list li{
+	width: 175px;
+	height: 31px;
+	padding: 0 8px 0 8px;
+	background-color: #252221;
+	color: #ff6700;
+	font-size: 10px;
+	font-weight: 400;
+}
+.banner .listbox .list li:hover{
+	background-color: #fff;
+	color: #000;
+}
+.banner .listbox .list li:hover a{
+	
+	color: #000;
+}
+.banner .listbox .list li a{
+	color: #FFF;
+	line-height: 32px;
+}
+.banner .listbox .list li a:hover{
+	color: #ff6700;
+}
+.banner .listbox .list li em{
+	color: #777;
+	line-height: 32px;
+}
+.banner .little1{
+	width: 150px;
+	height: 213px;
+	background: #FFF;
+    opacity: .82;
+	position: absolute;
+	left: 945px;
+	top: 0;
+}
+.banner .little2{
+	width: 150px;
+	height: 213px;
+	background: #FFF;
+    opacity: .82;
+	position: absolute;
+	left: 945px;
+	bottom: 5px;
+}
+.banner .little1:hover,.banner .little2:hover{
+	opacity: 1;
+}
+.banner .little a{
+	display: block;
+	width: 150px;
+	height: 213px;
+}
+.banner .little a .name{
+	color: #333;
+	font: 14px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+	margin-top: 20px;
+	margin-left: 18px;
+}
+.banner .little a .desc{
+	font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+.banner .wrapper{
+	width: 170px;
+	height: 430px;
+	position: absolute;
+	right: 79px;
+	top: 5px;
+}
+.banner .wrapper .top{
+	width: 170px;
+	height: 155px;
+	padding: 11px 0 2px;
+	border-bottom: 1px solid #F2F2F2;
+	background-color: #fff;
+}
+.banner .wrapper .top .top1{
+	display: block;
+	width: 52px;
+	height: 52px;
+	margin: 0 auto;
+	background-image: url('../img/suning.png');
+	background-position: -92px -24px;
+}
+.banner .wrapper .top p{
+	width: 150px;
+    height: 24px;
+    margin: 8px auto 0;
+    text-align: center;
+    font: 12px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.banner .wrapper .top .btn{
+	width: 100%;
+    margin: 6px auto;
+    height: 22px;
+    text-align: center;
+    color: #333;
+}
+.banner .wrapper .top .btn .top2{
+	display: block;
+	width: 68px;
+    height: 20px;
+    border: 1px solid #F90;
+    color: #ffa114;
+    line-height: 20px;
+    margin: 0 6px 0 10px;
+    text-align: center;
+    font-size: 13px;
+    float: left;
+}
+.banner .wrapper .top .btn .top3{
+	display: block;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 3px;
+    background-image: url('../img/suning.png');
+    background-position: -295px -251px;
+    float: left;
+}
+.banner .wrapper .top .enter{
+	margin: 0 10px;
+	width: 150px;
+    height: 26px;
+    color: #333;
+    background-color: yellow;
+}
+.banner .wrapper .top .enter .top4{
+	float: left;
+    width: 75px;
+    height: 26px;
+    text-align: center;
+    font: 12px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    background-color: tan;
+}
+.banner .wrapper .top .enter .top4 em{
+	display: block;
+	width: 16px;
+	height: 14px;
+	margin-top: 6px;
+	background-image: url('../img/suning.png');
+	background-position: -111px 0;
+	margin-right: 5px;
+	float: left;
+}
+.banner .wrapper .top .enter .top4:nth-child(2) em{
+	background-position: -87px 0;
+	margin-left: 6px;
+}
+.banner .wrapper .top .enter .top4 span{
+	display: block;
+	float: left;
+	margin-right: 2px;
+	color: #333;
+}
+.banner .wrapper .top .enter .top4 .i{
+	width: 6px;
+	height: 24px;
+	float: left;
+}
+.banner .wrapper .center{
+	width: 150px;
+	height: 97px;
+	padding: 9px 10px;
+	background-color: #fff;
+}
+.banner .wrapper .center li{
+	width: 150px;
+	height: 48px;
+}
+.banner .wrapper .center li p{
+	width: 150px;
+	height: 40px;
+	font-size: 10px;
+	color: #333;
+}
+.banner .wrapper .center li p:hover{
+	cursor: pointer;
+	color: #ff6700;
+}
+.banner .wrapper .center li p i{
+	margin-right: 5px;
+    color: #F60;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+}
+.banner .wrapper .bottom{
+	width: 170px;
+	height: 145px;
+	border-top: 1px solid #F2F2F2;
+}
+.banner .wrapper .bottom .box{
+	width: 56px;
+	height: 62px;
+	border-right: 1px solid #F2F2F2;
+	background-color: #fff;
+	float: left;
+	padding-top: 10px;
+}
+.banner .wrapper .bottom .box:hover{
+	cursor: pointer;
+	
+}
+.banner .wrapper .bottom .box:hover p{
+	color: #ff6700;
+}
+.banner .wrapper .bottom .box:nth-child(3),.banner .wrapper .bottom .box:nth-child(6){
+	border: 0;
+}
+.banner .wrapper .bottom .box i{
+	font-size: 24px;
+    color: #f90;
+    margin-left: 16px;
+}
+.banner .wrapper .bottom .box p{
+	font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+	text-align: center;
+	color: #333;
+	font-size: 13px;
+	margin-top: 6px;
+}
+
+
+
+
+.dajuhui{
+	width: 100%;
+	height: 305px;
+	background-color: #F2F2F2;
+	padding-top: 30px;
+}
+.dajuhui .conten{
+	width: 1190px;
+	height: 305px;
+	margin: 0 auto;
+}
+.dajuhui .conten .title{
+	width: 1190px;
+	height: 43px;
+	border-bottom: 2px solid #dd2726;
+}
+.dajuhui .conten .title h5{
+	width: 175px;
+	height: 43px;
+	padding-left: 15px;
+	background: #dd2726;
+	float: left;
+	color: #FFF;
+    font: bold 20px/38px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.dajuhui .conten .title h5 span{
+	display: inline-block;
+    vertical-align: middle;
+}
+.dajuhui .conten .title h5 i{
+	width: 93px;
+    height: 13px;
+    margin: 4px 0 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('../img/suning.png');
+    background-position: 0 -124px;
+}
+.dajuhui .conten .title .a1{
+	display: block;
+	width: 78px;
+	height: 39px;
+	font-weight: bold;
+	color: #000;
+    float: left;
+    font: 14px/38px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    padding: 0 5px;
+    margin-left: 61px;
+}
+.dajuhui .conten .title .a1:hover{
+	border-bottom: 4px solid #dd2726;
+	color: #dd2726;
+}
+.dajuhui .conten .title .a1 i{
+	color: #DE2222;
+	margin-right: 1px;
+}
+.dajuhui .conten .title .a2{
+	float: left;
+    height: 39px;
+    margin-left: 61px;
+    font: 14px/38px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    padding: 0 5px;
+    color: #000;
+}
+.dajuhui .conten .title .a2:hover{
+	border-bottom: 4px solid #dd2726;
+	color: #dd2726;
+}
+.dajuhui .conten .title .a2 i{
+	color: #DE2222;
+	margin-right: 1px;
+}
+.dajuhui .conten .title .a3{
+	width: 90px;
+	height: 24px;
+	float: right;
+    padding: 0 5px;
+    height: 24px;
+    margin: 12px 10px 0 0;
+    color: #FFF;
+    background: #db2726;
+    text-align: center;
+    font: 12px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    border-radius: 14px;
+}
+.dajuhui .conten .title .a3 span{
+	display: block;
+	float: left;
+	margin-left: 5px;
+}
+.dajuhui .conten .title .a3 .i{
+	width: 6px;
+	height: 24px;
+	float: left;
+}
+.dajuhui .conten .title .a3 .i i{
+	font-size: 14px;
+}
+.dajuhui .conten .con{
+	width: 1190px;
+	height: 260px;
+	background-color: #fff;
+}
+.dajuhui .conten .left{
+	width: 1000px;
+	height: 240px;
+	float: left;
+	padding-top: 20px;
+}
+.dajuhui .conten .left:hover .dajuhui .conten .youla{
+	opacity: 1;
+}
+.dajuhui .conten .left .box{
+	float: left;
+    width: 200px;
+    height: 240px;
+    background-color: #fff;
+}
+.dajuhui .conten .left .box a{
+	display: block;
+    width: 200px;
+    height: 240px;
+}
+.dajuhui .conten .left .box a img{
+	margin: 0 auto;
+	width: 160px;
+    height: 160px;
+    transition: transform .5s;
+}
+.dajuhui .conten .left .box:hover img{
+	transform: scale(1.1, 1.1);
+}
+.dajuhui .conten .left .box a .name{
+	width: 160px;
+    height: 36px;
+    margin: 10px auto 3px;
+    color: #474747;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    overflow: hidden;
+    word-break: break-all;
+}
+.dajuhui .conten .left .box a span{
+	color: #F60;
+	float: left;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    margin-left: 20px;
+}
+.dajuhui .conten .left .box a span em{
+	font-size: 16px;
+    font-weight: bold;
+}
+.dajuhui .conten .left .zuola{
+	width: 30px;
+    height: 64px;
+    position: absolute;
+    left: 80px;
+    top: 879px;
+    background-image:url('../img/suning.png') ;
+    background-position: 0 -20px;
+    opacity: 0;
+}
+.dajuhui .conten .left .zuola:hover{
+	background-position: 0 -145px;
+}
+.dajuhui .conten .left .youla{
+	width: 30px;
+    height: 64px;
+    position: absolute;
+    left: 1040px;
+    top: 879px;
+    background-image:url('../img/suning.png') ;
+    background-position: -37px -20px;
+    opacity: 0;
+}
+.dajuhui .conten .left .youla:hover{
+	background-position: -38px -145px;
+}
+.dajuhui .conten .left:hover .zuola,.dajuhui .conten .left:hover .youla{
+	opacity: 1;
+}
+.dajuhui .conten .right{
+	float: right;
+    width: 180px;
+    height: 240px;
+    margin: 10px 10px 0 0;
+}
+.dajuhui .conten .right a{
+	display: block;
+    width: 180px;
+    height: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+.ClearFix{
+	width: 100%;
+	height: auto;
+	background-color: #F2F2F2;
+}
+.ClearFix .clearfix{
+	width: 1190px;
+	height: 427px;
+	margin: 20px auto;
+}
+.ClearFix .clearfix .module{
+	width: 390px;
+	height: 427px;
+	float: left;
+	background: #fff;
+}
+.ClearFix .clearfix .module .title{
+	width: 100%;
+	height: 45px;
+	background: #3b8c94;
+}
+.ClearFix .clearfix .module .title h5{
+	width: 36px;
+	height: 45px;
+	padding-left: 15px;
+	float: left;
+	color: #fff;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB"
+}
+.ClearFix .clearfix .module .title a{
+	display: block;
+	width: 62px;
+	height: 18px;
+	float: right;
+    margin: 15px 10px 0 0;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #FFF;
+}
+.ClearFix .clearfix .module .title a i{
+	display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5px 0 0 8px;
+    float: right;
+    background-image: url('../img/logo/index.png');
+    background-position: -73px -37px;
+}
+.ClearFix .clearfix .module .content{
+	width: 369px;
+	height: 362px;
+    margin: 10px auto 0;
+}
+.ClearFix .clearfix .module .content a{
+	display: block;
+    width: 183px;
+    height: 119px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.ClearFix .clearfix .module .content a .name{
+	width: 72px;
+    height: 40px;
+    overflow: hidden;
+    margin: 14px 0 0 15px;
+    color: #333;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .module .content a .desc{
+	width: 72px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 10px 0 0 15px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .module .content a img{
+	position: absolute;
+    display: block;
+    width: 90px;
+    height: 90px;
+    bottom: 3px;
+    right: 3px;
+}
+.ClearFix .clearfix .tj-module{
+	width: 390px;
+	height: 427px;
+	margin-left: 10px;
+	float: left;
+}
+.ClearFix .clearfix .tj-module .content a{
+    width: 183px;
+    height: 179px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+.ClearFix .clearfix .tj-module .content a .name{
+	float: left;
+	width: 84px;
+    padding: 0 8px;
+    height: 20px;
+    overflow: hidden;
+    margin: 14px 0 0 8px;
+    color: #333;
+    background: #e66a07;
+    border-radius: 20px;
+    color: #FFF;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .tj-module .content a .desc{
+	float: left;
+    width: 144px;
+    height: 16px;
+    overflow: hidden;
+    color: #999;
+    margin: 6px 0 0 16px;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .tj-module .content a .img1{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    margin: 14px 0 0 2px;
+
+}
+.ClearFix .clearfix .tj-module .content a .img2{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    margin-top: 14px;
+}
+.ClearFix .clearfix .tj-module .title{
+	background: #e66a07;
+	position: relative;
+	top: 0;
+	bottom: 0;
+}
+.ClearFix .clearfix .tj-module .title h5{
+	width: 87px;
+	height: 45px;
+}
+.ClearFix .clearfix .tj-module .title em{
+	display: block;
+	position: absolute;
+    left: 87px;
+    bottom: 8px;
+    width: 53px;
+    height: 53px;
+    background-image: url('../img/logo/phb-logo.png');
+}
+.ClearFix .clearfix .tj-module .title a{
+	width: 82px;
+	height: 16px;
+}
+.ClearFix .clearfix .tj-module .title a i{
+	margin: 5px 0 0 0;
+}
+.ClearFix .clearfix .phb-module{
+	width: 390px;
+	height: 427px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.ClearFix .clearfix .phb-module .title{
+	background: #b62323;
+}
+.ClearFix .clearfix .phb-module .title a{
+	width: 74px;
+	height: 16px;
+}
+.ClearFix .clearfix .phb-module .content{
+	position: relative;
+	height: 360px;
+    width: 369px;
+    padding: 0 10px 0 11px;
+}
+.ClearFix .clearfix .phb-module .content .com-ul{
+	float: left;
+    width: 369px;
+    height: 180px;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a{
+	display: block;
+	padding-top: 14px;
+	width: 369px;
+    height: 180px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a .cate-title{
+	position: absolute;
+    left: 0;
+    top: 14px;
+    color: #FFF;
+    background: #c72c2c;
+    border-radius: 12px;
+    padding: 0 5px;
+    height: 22px;
+    font: 14px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .phb-module .content .com-ul a .title-down{
+	top: 25px;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a li{
+	float: left;
+    width: 123px;
+    height: 166px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a li .paihang{
+	position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 28px;
+    left: 80px;
+    color: #FFF;
+    text-align: center;
+    background-image: url('../img/logo/index.png');
+	background-position: -3px -241px;
+    font: 12px/23px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .phb-module .content .com-ul a li img{
+	display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a li .name{
+	display: block;
+	width: 100px;
+    height: 28px;
+    color: #333;
+    margin-left: 11px;
+    font: 12px/14px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a li .price{
+	margin: 1px 0 0 11px;
+    color: #b62323;
+    font: 14px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a li span{
+	font-size: 12px;
+	color: #b62323;
+	position: absolute;
+    bottom: 3px;
+    left: 52px;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a .title-down{
+	top: 20px;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a .btn{
+	width: 78px;
+	height: 8px;
+	position: absolute;
+	bottom: 5px;
+	padding: 0 156px;
+	left: 0;
+}
+.ClearFix .clearfix .phb-module .content .com-ul a .btn .btns{
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border: 2px solid #D8D8D8; 
+	border-radius: 100%;
+	float: left;
+	margin-right: 14px;
+	background: #D8D8D8
+}
+.ClearFix .clearfix .phb-module .content .com-ul a .btn .btns:hover{
+	border: 2px solid #c72c2c;
+	background: #c72c2c;
+}
+.ClearFix .clearfix .phb-module .ui-prev{
+	width: 30px;
+	height: 64px;
+	position: absolute;
+	top: 215px;
+	left: 0;
+	background-image: url('../img/logo/index.png');
+	background-position: -370px -72px;
+}
+.ClearFix .clearfix .phb-module:hover .ui-prev{
+	background-position: -82px -145px;
+}
+.ClearFix .clearfix .phb-module .ui-prev:hover{
+	background-position: -161px -145px;
+}
+.ClearFix .clearfix .phb-module .ui-next{
+	width: 30px;
+	height: 64px;
+	position: absolute;
+	top: 215px;
+	right: 0;
+	background-image: url('../img/logo/index.png');
+	background-position: -370px -72px;
+}
+.ClearFix .clearfix .phb-module:hover .ui-next{
+	background-position: -120px -145px;
+}
+.ClearFix .clearfix .phb-module .ui-next:hover{
+	background-position: -198px -145px;
+}
+.ClearFix .clearfix .tm-module:nth-child(2),.ClearFix .clearfix .tm-module:nth-child(3){
+	margin-left: 10px;
+}
+.ClearFix .clearfix .tm-module .content .first{
+	display: block;
+    width: 184px;
+	height: 241px;
+	float: left;
+}
+.ClearFix .clearfix .tm-module .content .first .name{
+	width: 140px;
+    height: 20px;
+    margin: 14px 0 0 15px;
+    color: #333;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .tm-module .content .first .desc{
+	width: 144px;
+    margin-top: 3px;
+    height: 16px;
+    margin-top: 3px;
+    color: #c43e7e;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .clearfix .tm-module .content .first img{
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+
+}
+.ClearFix .clearfix .tm-module .content a{
+	width: 180px;
+	height: 120px;
+}
+.ClearFix .pindao-enter{
+	width: 1190px;
+	height: 530px;
+	margin: 0 auto;
+}
+.ClearFix .pindao-enter .left-enter{
+	width: 790px;
+	height: 530px;
+	float: left;
+}
+.ClearFix .pindao-enter .left-enter .item{
+	display: block;
+	float: left;
+    width: 390px;
+    height: 126px;
+    padding-top: 44px;
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+.ClearFix .pindao-enter .left-enter .item:hover img{
+	transform: translate(-8px,0);
+}
+.ClearFix .pindao-enter .left-enter .item1{
+	background: -webkit-gradient(linear,0 0,right 0,from(#e89621),to(#f5c568));
+}
+.ClearFix .pindao-enter .left-enter .item2{
+	background: -webkit-gradient(linear,0 0,right 0,from(#325bb4),to(#4c9afe));
+}
+.ClearFix .pindao-enter .left-enter .item3{
+	background: -webkit-gradient(linear,0 0,right 0,from(#1c9daf),to(#40cda7));
+}
+.ClearFix .pindao-enter .left-enter .item4{
+	 background: -webkit-gradient(linear,0 0,right 0,from(#d13837),to(#df6d4f));
+}
+.ClearFix .pindao-enter .left-enter .item5{
+	background: -webkit-gradient(linear,0 0,right 0,from(#ca4283),to(#eb75cf));
+}
+.ClearFix .pindao-enter .left-enter .item6{
+	background: -webkit-gradient(linear,0 0,right 0,from(#5d40c1),to(#8c5fdb));
+}
+.ClearFix .pindao-enter .left-enter .item .n-line{
+	display: block;
+	margin-left: 35px;
+	width: 78px;
+	height: 2px;
+	background-image: url('../img/logo/index.png');
+	background-position: -102px -245px;
+}
+.ClearFix .pindao-enter .left-enter .item .name{
+	display: block;
+    width: 160px;
+	margin: 5px 0 5px 35px;
+	font: bold 20px/26px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: 26px;
+    color: #FFF;
+}
+.ClearFix .pindao-enter .left-enter .item .desc{
+	margin: 5px 0 0 35px;
+	font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: 20px;
+	color: #FFF;
+    width: 160px;
+}
+.ClearFix .pindao-enter .left-enter .item .w-line{
+	display: block;
+	margin-left: 35px;
+	width: 154px;
+	height: 2px;
+	background-image: url('../img/logo/index.png');
+	background-position: -101px -253px;
+}
+.ClearFix .pindao-enter .left-enter .item img{
+	width: 170px;
+	height: 170px;
+	float: left;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	transition: all,0.5s;
+}
+.ClearFix .pindao-enter .left-enter .item:nth-child(2n){
+	margin: 0 0 10px 0;
+}
+.ClearFix .pindao-enter .sp-wrapper{
+	float: left;
+    width: 390px;
+    height: 350px;
+    margin-left: 10px;
+    display: block;
+}
+.ClearFix .pindao-enter .sp-wrapper .title{
+	width: 100%;
+    height: 45px;
+    color: #FFF;
+    background: #3f3435;
+}
+.ClearFix .pindao-enter .sp-wrapper .title h5{
+	width: 36px;
+	height: 45px;
+	float: left;
+    padding-left: 15px;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .pindao-enter .sp-wrapper .bigshow-wrapper{
+	width: 390px;
+	height: 227px;
+	position: relative;
+	display: block;
+}
+.ClearFix .pindao-enter .sp-wrapper .bigshow-wrapper span{
+	position: absolute;
+    top: 80px;
+    left: 170px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/logo/index.png');
+    background-position: -190px 0;
+}
+.ClearFix .pindao-enter .sp-wrapper .bigshow-wrapper:hover span{
+	background-position: -391px 0;
+}
+.ClearFix .pindao-enter .sp-wrapper .bigshow-wrapper .black-cover{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background: #000;
+    opacity: .5;
+}
+.ClearFix .pindao-enter .sp-wrapper .bigshow-wrapper .name{
+	position: absolute;
+    bottom: 0;
+    left: 35px;
+    width: 320px;
+    height: 45px;
+    color: #FFF;
+    font: 14px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper{
+	position: relative;
+    width: 390px;
+    height: 73px;
+    margin-top: 5px;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper a{
+	display: block;
+	width: 128px;
+	height: 73px;
+	position: relative;
+	float: left;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper a span{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+	display: block;
+	background-image: url('../img/logo/index.png');
+    background-position: -252px 0;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper a:hover span{
+	background-position: -252px -28px;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper .ui-prve{
+	width: 14px;
+	height: 73px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url('../img/logo/index.png');
+    background-position: -420px -76px;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper .ui-next{
+	width: 14px;
+	height: 73px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url('../img/logo/index.png');
+    background-position: -420px -76px;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper:hover .ui-prve{
+	background-position: -285px 0;
+}
+.ClearFix .pindao-enter .sp-wrapper .smallshow-wrapper:hover .ui-next{
+	background-position: -304px 0;
+}
+.ClearFix .pindao-enter .right-enter{
+	float: left;
+    width: 390px;
+    height: 170px;
+    margin: 10px 0 0 10px;
+}
+.ClearFix .pindao-enter .right-enter .item{
+	display: block;
+    width: 190px;
+    height: 152px;
+    padding-top: 18px;
+    float: left;
+    background: -webkit-gradient(linear,0 0,right 0,from(#6ea166),to(#9fc766));
+}
+.ClearFix .pindao-enter .right-enter .item:hover img{
+	transform: translate(-8px,0);
+}
+.ClearFix .pindao-enter .right-enter .item .name{
+	display: block;
+	font: bold 20px/26px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: 26px;
+    margin: 0 0 5px 35px;
+    color: #FFF;
+    width: 120px;
+    float: left;
+}
+.ClearFix .pindao-enter .right-enter .item .desc{
+	display: block;
+	float: left;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: 20px;
+    width: 126px;
+    color: #FFF;
+    margin: 0 0 0 35px;
+}
+.ClearFix .pindao-enter .right-enter .item img{
+	width: 190px;
+	height: 100px;
+	transition: all,0.5s;
+}
+.ClearFix .pindao-enter .right-enter .item8{
+	background: -webkit-gradient(linear,0 0,right 0,from(#4023bb),to(#5871e9));
+}
+.middle-three{
+	width: 1190px;
+    height: 100px;
+    margin: 20px auto 0;
+}
+.middle-three a{
+	display: block;
+	height: 100px;
+	float: left;
+}
+.floor{
+	width: 1190px;
+	height: 565px;
+    border: 0;
+    margin: 20px auto 0;
+}
+.J-floor1{
+	height: 565px;
+}
+.floor .floor-l{
+	float: left;
+    width: 590px;
+    height: 565px;
+    background: #FFF;
+    border-top: 2px solid #FFF;
+    box-shadow: 0 0 8px #eee;
+    border-color: #33ae75;
+}
+.floor .floor-l .title{
+	width: 100%;
+    height: 45px;
+    background: #f0f7f4;
+}
+.floor .floor-l .title .title-name{
+	float: left;
+    width: 190px;
+    height: 45px;
+    background: #33ae75;
+}
+.floor .floor-l .title .title-name .name{
+	float: left;
+    color: #FFF;
+	margin-left: 15px;
+    font: bold 18px/40px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.floor .floor-l .title .title-name .code-wrapper{
+	position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background-image: url('../img/logo/index.png');
+    background-position:  -232px -209px;
+}
+.floor .floor-l .title .title-name .code-wrapper .code{
+	position: absolute;
+    top: 35px;
+    left: -49px;
+    width: 120px;
+    height: 130px;
+    background: #FFF;
+    border: 1px solid #e2e2e2;
+    display: none;
+    z-index: 25;
+    border-radius: 8px;
+}
+.floor .floor-l .title .title-name .code-wrapper:hover .code{
+	display: block;
+}
+.floor .floor-l .title .title-name .code-wrapper .code span{
+	display: block;
+	position: absolute;
+    width: 10px;
+    height: 8px;
+    top: -7px;
+    left: 56px;
+    background-image: url('../img/logo/index.png');
+    background-position: -267px -210px;
+}
+.floor .floor-l .title .title-name .code-wrapper .code p{
+    text-align: center;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.floor .floor-l .title .title-name .code-wrapper .code img{
+	display: block;
+    width: 100px;
+    height: 100px;
+    margin: 6px auto 0;
+}
+.floor .floor-l .title .keyword{
+	width: 380px;
+	height: 20px;
+    float: right;
+    margin: 14px 18px 0 0;
+}
+.floor .floor-l .title .keyword a{
+	float: right;
+    margin-left: 20px;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+}
+.floor .floor-l .title .keyword a:hover{
+	color: #f60;
+}
+.floor .floor-l .content{
+	width: 100%;
+    height: 360px;
+}
+.floor .floor-l .content .left-img{
+	display: block;
+	float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.floor .floor-l .content .left-img:hover{
+	opacity: .9;
+}
+.floor .floor-l .content .left-img img{
+	width: 190px;
+    height: 360px;
+}
+.floor .floor-l .content .left-img .cover{
+	background: #33ae75;
+	position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+}
+.floor .floor-l .content .left-img .img-name{
+	position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    color: #FFF;
+    font: bold 20px/30px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.floor .floor-l .content .left-img .img-desc{
+	position: absolute;
+    top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    overflow: hidden;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.floor .floor-l .content .img-list{
+	position: relative;
+    float: left;
+    width: 400px;
+    height: 360px;
+}
+.floor .floor-l .content .img-list .list-item{
+	float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+}
+.floor .floor-l .content .img-list .list-item .img-name{
+	display: block;
+	width: 180px;
+    height: 24px;
+    overflow: hidden;
+    text-align: center;
+    margin: 14px auto 0;
+    font: 16px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.floor .floor-l .content .img-list .list-item .img-desc{
+	width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    color: #33ae75;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.floor .floor-l .content .img-list .list-item img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.floor .floor-l .content .img-list .list-item img:hover{
+	transform: scale(1.05)
+}
+.floor .floor-l .bottom-list{
+    width: 100%;
+    height: 109px;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+}
+.floor .floor-l .bottom-list .item{
+	display: block;
+	width: 200px;
+	height: 109px;
+    border-right: 1px solid #EEE;
+    position: relative;
+    float: left;
+}
+.floor .floor-l .bottom-list .item:first-child{
+	width: 189px;
+}
+.floor .floor-l .bottom-list .item:last-child{
+	width: 199px;
+	border-right: 0;
+}
+.floor .floor-l .bottom-list .item .img-name{
+	width: 70px;
+    color: #333;
+    height: 24px;
+    margin-top: 27px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB"
+}
+.floor .floor-l .bottom-list .item .img-desc{
+	width: 72px;
+    height: 22px;
+    padding-left: 20px;
+    overflow: hidden;
+    color: #33ae75;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.floor .floor-l .bottom-list .item img{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    transition: transform .5s;
+}
+.floor .floor-l .bottom-list .item img:hover{
+	transform: scale(1.05)
+}
+.floor .floor-l .brand-logo{
+	width: 100%;
+    height: 40px;
+}
+.floor .floor-l .brand-logo .logo{
+	float: left;
+    width: 80px;
+    height: 30px;
+	margin: 9px 9px 0 9px;
+}
+.floor .floor-l .brand-logo .logo img{
+    width: 80px;
+    height: 30px;
+}
+.floor .right{
+	margin-left: 10px;
+    width: 590px;
+    height: 565px;
+    background: #FFF;
+    border-top: 2px solid #FFF;
+    box-shadow: 0 0 8px #eee;
+    border-color: #2eaba3;
+    float: left;
+}
+.floor .right .content .left-img .cover{
+	background: #2eaba3;
+}
+.floor .right .bottom-list .item .img-desc{
+	color: #2eaba3;
+}
+.floor .right .content .img-list .list-item .img-desc{
+	color: #2eaba3;
+}
+.J-floor2{
+	box-shadow: 0 0 8px #eee;
+    height: 455px;
+    background: #FFF;
+    border-top: 2px solid #5f6cb7;
+}
+.J-floor2 .title{
+	width: 100%;
+    height: 45px;
+    background: #eff0f8;
+}
+.J-floor2 .title .title-name{
+	float: left;
+    width: 190px;
+    height: 45px;
+    background: #5f6cb7;
+}
+.J-floor2 .title .title-name .name{
+	margin-left: 15px;
+	float: left;
+    color: #FFF;
+    font: bold 18px/40px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.J-floor2 .title .title-name .code-wrapper{
+	position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background-image: url("../img/logo/index.png");
+    background-position: -232px -209px;
+}
+.J-floor2 .title .title-name .code-wrapper .code{
+	position: absolute;
+    top: 35px;
+    left: -49px;
+    width: 120px;
+    height: 130px;
+    background: #FFF;
+    display: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    z-index: 25;
+}
+.J-floor2 .title .title-name .code-wrapper:hover .code{
+	display: block;
+}
+.J-floor2 .title .title-name .code-wrapper .code span{
+	position: absolute;
+    width: 10px;
+    height: 8px;
+    top: -7px;
+    left: 56px;
+    background-image: url("../img/logo/index.png");
+    background-position: -267px -210px;
+}
+.J-floor2 .title .title-name .code-wrapper .code img{
+	width: 100px;
+    height: 100px;
+    margin: 6px auto 0;
+}
+.J-floor2 .title .title-name .code-wrapper .code p{
+	float: none;
+    text-align: center;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.J-floor2 .title .keyword{
+	width: 394px;
+	height: 20px;
+	float: right;
+    margin: 14px 18px 0 0;
+}
+.J-floor2 .title .keyword a{
+	display: block;
+	float: right;
+    margin-left: 20px;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #666;	
+}
+.J-floor2 .title .keyword a:hover{
+	color: #f60;
+}
+.J-floor2 .content{
+	width: 100%;
+    height: 360px;
+}
+.J-floor2 .content .left-img{
+	display: block;
+    float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+}
+.J-floor2 .content .left-img:hover{
+	opacity: .9;
+}
+.J-floor2 .content .left-img img{
+    width: 190px;
+    height: 360px;
+}
+.J-floor2 .content .left-img .cover{
+	position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+    background: #5f6cb7;
+}
+.J-floor2 .content .left-img .img-name{
+position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    color: #FFF;
+    font: bold 20px/30px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.J-floor2 .content .left-img .img-desc{
+	position: absolute;
+    top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    overflow: hidden;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.J-floor2 .content .img-list{
+	position: relative;
+    float: left;
+    width: 400px;
+    height: 360px;
+}
+.J-floor2 .content .img-list a{
+	display: block;
+	float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+}
+.J-floor2 .content .img-list a .img-name{
+	display: block;
+	width: 180px;
+    height: 24px;
+    overflow: hidden;
+    text-align: center;
+    margin: 14px auto 0;
+    font: 16px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.J-floor2 .content .img-list a .img-desc{
+	display: block;
+	width: 180px;
+    height: 20px;
+    overflow: hidden;
+    color: #5f6cb7;
+    text-align: center;
+    margin: 0 auto;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB"
+}
+.J-floor2 .content .img-list a img{
+	display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.J-floor2 .content .img-list a:hover img{
+	transform: scale(1.05);
+}
+.J-floor2 .content .imgbox{
+	display: block;
+	position: relative;
+    float: left;
+    width: 200px;
+    height: 360px;
+}
+.J-floor2 .content .imgbox .img-name{
+	display: block;
+	color: #5f6cb7;
+	position: absolute;
+    z-index: 1;
+    left: 21px;
+	top: 15px;
+    font: bold 20px/26px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.J-floor2 .content .imgbox .img-desc{
+	display: block;
+	color: #5f6cb7;
+	position: absolute;
+    z-index: 1;
+    left: 21px;
+	top: 41px;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.J-floor2 .content .imgbox img{
+    width: 200px;
+    height: 360px;
+}
+.J-floor2 .brand-logo{
+	width: 100%;
+    height: 40px;
+}
+.J-floor2 .brand-logo a{
+	display: block;
+	float: left;
+    width: 80px;
+    height: 30px;
+    margin: 9px 9px 0 10px;
+}
+.J-floor2 .brand-logo a img{
+	width: 80px;
+    height: 30px;
+}
+
+
+
+
+
+.zhineng{
+	width: 1190px;
+	height: 565px;
+	margin: 20px auto 0;
+}
+.zhineng .zuo{
+	float: left;
+    width: 590px;
+    height: 565px;
+    border-top: 2px solid #FFF;
+    box-shadow: 0 0 8px #eee;
+    border-color: #3299cc;
+}
+.zhineng .zuo .title{
+	width: 100%;
+    height: 45px;
+    background:#eff7fb;
+}
+.zhineng .zuo .title .title1{
+	background: #3299cc;
+	float: left;
+    width: 190px;
+    height: 45px;
+}
+.zhineng .zuo .title .title1 .name{
+	margin-left: 15px;
+	font: bold 18px/40px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+	float: left;
+    color: #FFF;
+}
+.zhineng .zuo .title .title1 .code{
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background-color: yellow;
+    cursor: pointer;
+    background: url('../img/suning.png') -232px -209px;
+}
+.zhineng .zuo .title .title2{
+	float: right;
+    margin: 14px 18px 0 0;
+    width: 318px;
+    height: 20px;
+}
+.zhineng .zuo .title .title2 a{
+	float: right;
+    margin-left: 20px;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+}
+.zhineng .zuo .conten{
+	width: 100%;
+    height: 360px;
+}
+.zhineng .zuo .conten .left-img{
+	position: relative;
+	float: left;
+	width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.zhineng .zuo .conten .left-img img:hover{
+	opacity: .9;
+}
+.zhineng .zuo .conten .left-img .shuoming{
+	position: absolute;
+	width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+	background: #3299cc;
+	opacity: .6;
+}
+.zhineng .zuo .conten .left-img .img-name{
+	position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    color: #FFF;
+    font: bold 20px/30px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .zuo .conten .left-img .img-desc{
+	position: absolute;
+	top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .zuo .conten .img-list{
+	float: left;
+    width: 400px;
+    height: 360px;
+    width: 400px;
+    height: 360px;
+    background-color:#FFFFFF;
+}
+.zhineng .zuo .conten .img-list li{
+	overflow: hidden;
+	float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+}
+.zhineng .zuo .conten .img-list li:hover .lazy-loading{
+	transform: scale(1.05);
+}
+.zhineng .zuo .conten .img-list li a{
+	display: block;
+	width: 199px;
+	height: 179px;
+}
+.zhineng .zuo .conten .img-list li a .img-name{
+	width: 180px;
+    height: 24px;
+    text-align: center;
+    margin: 14px auto 0;
+    font: 16px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.zhineng .zuo .conten .img-list li a .img-desc{
+	color: #3299cc;
+	width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .zuo .conten .img-list li a .lazy-loading{
+	display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.zhineng .zuo .conten .bottom-list{
+	width: 100%;
+    height: 109px;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+    
+}
+.zhineng .zuo .conten .bottom-list li{
+	position: relative;
+	width: 199px;
+	float: left;
+	height: 109px;
+    border-right: 1px solid #EEE;
+    background-color: #fff;
+}
+.zhineng .zuo .conten .bottom-list li:hover .lazy-loading{
+	transform: scale(1.05);
+}
+.zhineng .zuo .conten .bottom-list li:first-child{
+	width: 189px;
+}
+.zhineng .zuo .conten .bottom-list li a{
+	display: block;
+	width: 199px;
+	height: 109px;
+}
+.zhineng .zuo .conten .bottom-list li a:first-child{
+	width: 189px;
+}
+.zhineng .zuo .conten .bottom-list li a .img-name{
+	width: 70px;
+    color: #333;
+    height: 24px;
+    margin-top: 27px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .zuo .conten .bottom-list li a .img-desc{
+	color: #3299cc;
+	width: 72px;
+    height: 22px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .zuo .conten .bottom-list li a .lazy-loading{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    transition: transform .5s;
+}
+.zhineng .zuo .conten .brand-logo{
+	width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.zhineng .zuo .conten .brand-logo li{
+	margin: 9px 9px 0 9px;
+	float: left;
+    width: 80px;
+    height: 30px;
+}
+.zhineng .zuo .conten .brand-logo li a{
+	display: block;
+	width: 80px;
+    height: 30px;
+}
+.zhineng .zuo .conten .brand-logo li a .lazy-loading{
+	width: 80px;
+    height: 30px;
+}
+.zhineng .you{
+	float: left;
+    width: 590px;
+    height: 565px;
+    border-top: 2px solid #FFF;
+    box-shadow: 0 0 8px #eee;
+    margin-left: 10px;
+    border-color: #3299cc;
+}
+.zhineng .you .title{
+	width: 100%;
+    height: 45px;
+    background:#eff7fb;
+}
+.zhineng .you .title .title1{
+	background: #3299cc;
+	float: left;
+    width: 190px;
+    height: 45px;
+}
+.zhineng .you .title .title1 .name{
+	margin-left: 15px;
+	font: bold 18px/40px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+	float: left;
+    color: #FFF;
+}
+.zhineng .you .title .title1 .code{
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    background-color: yellow;
+    cursor: pointer;
+    background: url('../img/suning.png') -232px -209px;
+}
+.zhineng .you .title .title2{
+	float: right;
+    margin: 14px 18px 0 0;
+    width: 318px;
+    height: 20px;
+}
+.zhineng .you .title .title2 a{
+	float: right;
+    margin-left: 20px;
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+}
+.zhineng .you .conten{
+	width: 100%;
+    height: 360px;
+}
+.zhineng .you .conten .left-img{
+	position: relative;
+	float: left;
+	width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.zhineng .you .conten .left-img img:hover{
+	opacity: .9;
+}
+.zhineng .you .conten .left-img .shuoming{
+	position: absolute;
+	width: 190px;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+	background: #3299cc;
+	opacity: .6;
+}
+.zhineng .you .conten .left-img .img-name{
+	position: absolute;
+    top: 285px;
+    left: 14px;
+    width: 160px;
+    height: 30px;
+    color: #FFF;
+    font: bold 20px/30px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .you .conten .left-img .img-desc{
+	position: absolute;
+	top: 315px;
+    left: 14px;
+    color: #FFF;
+    width: 160px;
+    height: 22px;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .you .conten .img-list{
+	float: left;
+    width: 400px;
+    height: 360px;
+    width: 400px;
+    height: 360px;
+    background-color:#FFFFFF;
+}
+.zhineng .you .conten .img-list li{
+	overflow: hidden;
+	float: left;
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+}
+.zhineng .you .conten .img-list li:hover .lazy-loading{
+	transform: scale(1.05);
+}
+.zhineng .you .conten .img-list li a{
+	display: block;
+	width: 199px;
+	height: 179px;
+}
+.zhineng .you .conten .img-list li a .img-name{
+	width: 180px;
+    height: 24px;
+    text-align: center;
+    margin: 14px auto 0;
+    font: 16px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    color: #333;
+}
+.zhineng .you .conten .img-list li a .img-desc{
+	color: #3299cc;
+	width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .you .conten .img-list li a .lazy-loading{
+	display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    transition: transform .5s;
+}
+.zhineng .you .conten .bottom-list{
+	width: 100%;
+    height: 109px;
+    overflow: hidden;
+    border-bottom: 1px solid #EEE;
+    
+}
+.zhineng .you .conten .bottom-list li{
+	position: relative;
+	width: 199px;
+	float: left;
+	height: 109px;
+    border-right: 1px solid #EEE;
+    background-color: #fff;
+}
+.zhineng .you .conten .bottom-list li:hover .lazy-loading{
+	transform: scale(1.05);
+}
+.zhineng .you .conten .bottom-list li:first-child{
+	width: 189px;
+}
+.zhineng .you .conten .bottom-list li a{
+	display: block;
+	width: 199px;
+	height: 109px;
+}
+.zhineng .you .conten .bottom-list li a:first-child{
+	width: 189px;
+}
+.zhineng .you .conten .bottom-list li a .img-name{
+	width: 70px;
+    color: #333;
+    height: 24px;
+    margin-top: 27px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 14px/24px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .you .conten .bottom-list li a .img-desc{
+	color: #3299cc;
+	width: 72px;
+    height: 22px;
+    padding-left: 20px;
+    overflow: hidden;
+    font: 12px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.zhineng .you .conten .bottom-list li a .lazy-loading{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    transition: transform .5s;
+}
+.zhineng .you .conten .brand-logo{
+	width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.zhineng .you .conten .brand-logo li{
+	margin: 9px 9px 0 9px;
+	float: left;
+    width: 80px;
+    height: 30px;
+}
+.zhineng .you .conten .brand-logo li a{
+	display: block;
+	width: 80px;
+    height: 30px;
+}
+.zhineng .you .conten .brand-logo li a .lazy-loading{
+	width: 80px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.biqiang{
+	width: 1190px;
+	margin: 20px auto 0;
+	height: 385px;
+}
+.biqiang .zuo{
+	height: 385px;
+	float: left;
+    width: 590px;
+    box-shadow: 0 0 8px #eee;
+    background-color: #fff;
+}
+.biqiang .zuo .title{
+	height: 46px;
+    background: #ffaa01;
+    width: 100%;
+    color: #FFF;
+}
+.biqiang .zuo .title h5{
+	float: left;
+    padding-left: 15px;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    display: block;
+}
+.biqiang .zuo .title a{
+	display: block;
+	float: right;
+    margin: 15px 10px 0 0;
+    color: #FFF;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    cursor: pointer;
+}
+.biqiang .zuo .title a i{
+	display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 9px;
+    margin-left: 8px;
+    background: url('../img/suning.png') -73px -37px;
+}
+.biqiang .zuo .clearfix{
+	margin-left: 20px;
+	width: 570px;
+	height: 316px;
+}
+.biqiang .zuo .clearfix li{
+	float: left;
+    width: 270px;
+    height: 134px;
+    margin: 18px 15px 6px 0;
+}
+.biqiang .zuo .clearfix li a{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+.biqiang .zuo .clearfix li a .name{
+	width: 240px;
+    height: 18px;
+    overflow: hidden;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    display: block;
+    color: #333;
+}
+.biqiang .zuo .clearfix li a .infor{
+	font-style: normal;
+	width: 240px;
+    height: 16px;
+    overflow: hidden;
+    margin-top: 6px;
+    color: #999;
+    font: 12px/16px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.biqiang .zuo .clearfix li a img{
+	float: left;
+    width: 85px;
+    height: 85px;
+    margin: 10px 5px 0 0;
+    transition: transform .5s;
+}
+.biqiang .zuo .clearfix li a .infor span{
+	display: inline-block;
+    padding: 0 5px;
+    color: #FFF;
+    height: 16px;
+    margin-right: 6px;
+    background: #fe9b00;
+}
+.biqiang .you{
+	height: 385px;
+	margin-left: 10px;
+	float: left;
+    width: 590px;
+    box-shadow: 0 0 8px #eee;
+    background-color: #fff;
+}
+.biqiang .you .title{
+	height: 46px;
+    background: #ffaa01;
+    width: 100%;
+    color: #FFF;
+}
+.biqiang .you .title h5{
+	float: left;
+    padding-left: 15px;
+    font: bold 18px/45px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    display: block;
+}
+.biqiang .you .list-wrapper{
+	position: relative;
+    width: 100%;
+    height: 339px;
+    overflow: hidden;
+}
+.biqiang .you .list-wrapper:hover .zuola{
+	opacity: 1;
+}
+.biqiang .you .list-wrapper:hover .youla{
+	opacity: 1;
+}
+.biqiang .you .list-wrapper .zuola{
+	position: absolute;
+	width: 30px;
+    height: 64px;
+    top: 110px;
+    background: url('../img/suning.png');
+    background-position: 0 -20px;
+    opacity: 0;
+}
+.biqiang .you .list-wrapper .youla{
+	position: absolute;
+	right: 1px;
+    width: 30px;
+    height: 64px;
+    top: 110px;
+    background: url('../img/suning.png');
+    background-position: -37px -20px;
+    opacity: 0;
+}
+.biqiang .you .list-wrapper .list{
+	width: 530px;
+    height: 300px;
+    margin: 30px 0 0 30px;
+    overflow: hidden;
+}
+.biqiang .you .list-wrapper .list li{
+	position: relative;
+	float: left;
+    width: 160px;
+    margin-right: 25px;
+    background-color: #fff;
+    height: 273px;
+}
+.biqiang .you .list-wrapper .list li:nth-child(3){
+	margin-right:0px; 
+}
+.biqiang .you .list-wrapper .list li:hover .img2{
+	opacity: .8;
+}
+.biqiang .you .list-wrapper .list li .img1{
+	width: 160px;
+    height: 160px;
+}
+.biqiang .you .list-wrapper .list li .img2{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    opacity: 0;
+    background: 0;
+}
+.biqiang .you .list-wrapper .list li span{
+	position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 53px;
+    top: 45px;
+    background: url('../img/suning.png') -240px -86px;
+}
+.biqiang .you .list-wrapper .list li .name{
+	width: 100%;
+    height: 36px;
+    margin-top: 18px;
+    overflow: hidden;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.biqiang .you .list-wrapper .list li .pg-price{
+	width: 100%;
+    height: 21px;
+    margin-top: 10px;
+    font: 12px/21px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    text-align: center;
+    color: #FFF;
+    background: #F90;
+}
+.biqiang .you .list-wrapper .list li .pg-price i{
+	padding: 0 3px;
+	font-style: normal;
+}
+.biqiang .you .list-wrapper .list li .sn-price{
+	display: block;
+	width: auto;
+	height: auto;
+	float: left;
+    color: #999;
+    margin-top: 10px;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.biqiang .you .list-wrapper .list li .pg-number{
+	float: right;
+    color: #999;
+    margin-top: 10px;
+    font: 12px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+
+
+
+
+
+
+
+
+
+
+.caini{
+	width: 1190px;
+	margin: 20px auto 0;
+	height: auto;
+}
+.caini .title{
+	width: 100%;
+    height: 22px;
+    background-color: #F2F2F2;
+}
+.caini .title .border{
+	float: left;
+    width: 3px;
+    height: 20px;
+    background: #fe9901;
+}
+.caini .title h5{
+	float: left;
+    margin-left: 12px;
+    font: bold 18px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.caini .clearfix{
+	width: 1191px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 8px;
+    padding: 1px 0;
+    background: #EEE;
+}
+.caini .clearfix li{
+	position: relative;
+	width: 237px;
+    height: 340px;
+    position: relative;
+    float: left;
+    margin: 1px 0 0 1px;
+    background: #FFF;
+    overflow: hidden;
+}
+.caini .clearfix li:hover .title{
+	color: #F60;
+}
+.caini .clearfix li:hover .lazy-loading{
+	transform: scale(1.05);
+}
+.caini .clearfix li .same{
+	display: block;
+	position: absolute;
+	top: 280px;
+    right: 22px;
+    width: 44px;
+    height: 20px;
+    border: 1px solid #f60;
+    border-radius: 4px;
+    text-align: center;
+    color: #F60;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.caini .clearfix li .pro-link{
+	display: block;
+	width: 237px;
+    height: 340px;
+    color: #000;
+}
+.caini .clearfix li .pro-link .lazy-loading{
+	width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+    transition: transform .5s;
+}
+.caini .clearfix li .pro-link .title{
+	display: block;
+	width: 193px;
+	height: 40px;
+    margin: 15px auto 5px;
+    overflow: hidden;
+    font: 12px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    word-break: break-all;
+    background-color: #fff;
+}
+.caini .clearfix li .pro-link .title .zyIcon{
+	float: left;
+    line-height: 16px;
+    padding: 0 2px;
+    margin: 2px 5px 0 0;
+    border: 1px solid #F60;
+    border-radius: 3px;
+    color: #F60;
+    font-style: normal;
+}
+.caini .clearfix li .pro-link .price{
+	display: block;
+	margin-left: 20px;
+    color: #F60;
+    font: bold 16px/18px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.caini .clearfix li .pro-link .price i{
+	font-size: 10px;
+	font-style: normal;
+}
+.caini .end{
+	position: relative;
+    width: 112px;
+    height: 22px;
+    text-align: center;
+    color: #CCC;
+    margin: 15px auto;
+    font: 18px/22px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+.caini .end .left{
+	position: absolute;
+    top: 11px;
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+    left: -97px;
+}
+.caini .end .right{
+	position: absolute;
+    top: 11px;
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+    right: -97px;
+}
+
+
+
+
+
+
+
+
+
+
+.jieshu{
+	width: 100%;
+	height: 278px;
+	margin-top: 10px;
+    background: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+}
+.jieshu .con{
+	width: 1190px;
+	height: 278px;
+	margin: 0 auto;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+.jieshu .con .baozhang{
+	width: 1250px;
+	padding: 12px 0;
+    height: 73px;
+    border-bottom: 1px solid #eaeaea;
+}
+.jieshu .con .baozhang dl{
+	width: 250px;
+	float: left;
+}
+.jieshu .con .baozhang dt{
+	display: block;
+	float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.jieshu .con .baozhang dt img{
+	width: 48px;
+    height: 48px;
+}
+.jieshu .con .baozhang dd{
+	width: 180px;
+	float: left;
+    height: 48px;
+}
+.jieshu .con .baozhang dd p{
+	line-height: 24px;
+    width: 100%;
+    color: #545454;
+}
+.jieshu .con .baozhang dd p:nth-child(2){
+	font-size: 12px;
+}
+.jieshu .con .baozhang dd strong{
+	font-weight: 700;
+    color: #222;
+    font-size: 14px;
+}
+.jieshu .con .baozhang dd a{
+	color: #333;
+}
+.jieshu .con .baozhang dd a:hover{
+	color: #ff6700;
+}
+.jieshu .con .dle{
+	width: 1050px;
+	float: left;
+	height: 180px;
+}
+.jieshu .con .dle dl{
+	width: 210px;
+	float: left;
+    height: 160px;
+}
+.jieshu .con .dle dl dt{
+	width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+}
+.jieshu .con .dle dl dd{
+	width: 100%;
+    line-height: 22px;
+}
+.jieshu .con .dle dl dd a{
+	color: #545454;
+	font-size: 12px;
+}
+.jieshu .con .dri{
+	float: left;
+    height: 180px;
+    width: 90px;
+}
+.jieshu .con .dri p{
+	width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.jieshu .con .dri a{
+	color: #333;
+	font-size: 12px;
+}
+
+
+
+footer{
+	padding-bottom: 150px;
+	background: #FFF;
+	width: 100%;
+	padding-top: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+.foot{
+	width: 1190px;
+	height: 160px;
+	margin: 0 auto;
+}
+.foot .p1{
+	line-height: 25px;
+    height: 25px;
+}
+.foot .p1 a{
+	color: #666;
+	font-size: 12px;
+}
+.foot .p2{
+	color: #999;
+	line-height: 25px;
+    height: 25px;
+}
+.foot .p2 a{
+	position: relative;
+    
+    color: #999;
+}
+.foot .tub{
+	width: 1190px;
+	height: 25px;
+    margin-top: 5px;
+}
+.foot .tub a{
+	display: inline-block;
+    margin-right: 8px;
+}
+.foot .tub a img{
+	height: 24px;
+    width: 76px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sn-sidebar{
+	width: 35px;
+    height: 100%;
+	position: fixed;
+    top: 0;
+    right: 0; 
+    background: #383838;
+    padding-top: 178px;
+    z-index: 30;
+}
+.sn-sidebar .vip{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.sn-sidebar .vip span{
+	width: 35px;
+	height: 30px;
+	display: block;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 0;
+}
+.sn-sidebar .vip:hover span{
+	background-position: 26px 0;
+}
+.sn-sidebar .vip:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .shop-car{
+	width: 35px;
+	height: 102px;
+	padding: 3px 0 10px 0;
+	position: relative;
+	border: 1px solid #4D4D4D;
+    border-width: 1px 0;
+}
+.sn-sidebar .shop-car:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .shop-car span{
+	width: 35px;
+	height: 30px;
+	margin-left: 3px;
+	display: block;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -210px;
+}
+.sn-sidebar .shop-car p{
+	display: block;
+    width: 20px;
+    margin: 0 auto;
+    font-size: 13px;
+    font-family: "Microsoft Yahei";
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+.sn-sidebar .shop-car .amount{
+	display: inline-block;
+    min-width: 17px;
+    height: 15px;
+    padding: 0 2px;
+    margin-left: 8px;
+    background-color: #D00;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 15px;
+    border-radius: 5px
+}
+.sn-sidebar .message{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.sn-sidebar .message span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -23px;
+}
+.sn-sidebar .message:hover span{
+	background-position: 26px -23px;
+}
+.sn-sidebar .message:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .money{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .money span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -47px
+}
+.sn-sidebar .money:hover span{
+	background-position: 26px -47px;
+}
+.sn-sidebar .money:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .track{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .track span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -70px;
+}
+.sn-sidebar .track:hover span{
+	background-position: 26px -70px;
+}
+.sn-sidebar .track:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .sign-in{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .sign-in span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -93px;
+}
+.sn-sidebar .sign-in:hover span{
+	background-position: 26px -93px;
+}
+.sn-sidebar .sign-in:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .advisory{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .advisory span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -117px;
+}
+.sn-sidebar .advisory:hover span{
+	background-position: 26px -117px;
+}
+.sn-sidebar .advisory:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .couple-back{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .couple-back span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -140px;
+}
+.sn-sidebar .couple-back:hover span{
+	background-position: 26px -140px;
+}
+.sn-sidebar .couple-back:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .code{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .code span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -163px;
+}
+.sn-sidebar .code:hover span{
+	background-position: 26px -163px;
+}
+.sn-sidebar .code:hover{
+	background: #ffaa01;
+}
+.sn-sidebar .top{
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.sn-sidebar .top span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background-image: url('../img/logo/sidebaricon.png');
+	background-position: 0 -186px;
+
+}
+.sn-sidebar .top:hover span{
+	background-position: 26px -186px;
+}
+.sn-sidebar .top:hover{
+	background: #ffaa01;
+}
